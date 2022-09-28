@@ -189,13 +189,13 @@
     --content-primary-variant-2: #ff6700;
     --content-primary-variant-3: #ff6700;
   
-  }
+}
   
-  @font-face {font-family: CamphorProForXiaoMi-Regular; src: url(../css/fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
-  @font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(../css/fonts/CamphorProForXiaoMi-Bold.woff) format("woff")}
-  @font-face {font-family: CamphorProForXiaoMi-Thin; src: url(./fonts/CamphorProForXiaoMi-Thin.woff) format("woff")}
-  @font-face {font-family: CamphorProForXiaoMi-Heavy; font-weight: 900; src: url(./fonts/CamphorProForXiaoMi-Heavy.woff) format("woff")}
-  @font-face {font-family: CamphorProForXiaoMi-Medium; src: url(./fonts/CamphorProForXiaoMi-Medium.woff) format("woff")}
+  @font-face {font-family: CamphorProForXiaoMi-Regular; src: url(./fonts/CamphorPro-Regular.woff) format("woff")}
+  @font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(./fonts/CamphorPro-Bold.woff) format("woff")}
+  @font-face {font-family: CamphorProForXiaoMi-Thin; src: url(./fonts/CamphorPro-Thin.woff) format("woff")}
+  @font-face {font-family: CamphorProForXiaoMi-Heavy; font-weight: 900; src: url(./fonts/CamphorPro-Heavy.woff) format("woff")}
+  @font-face {font-family: CamphorProForXiaoMi-Medium; src: url(./fonts/CamphorPro-Medium.woff) format("woff")}
   
   .f-heavy {font-family: CamphorProForXiaoMi-Heavy, sans-serif; font-weight: 900}
   .f-regular {font-family: CamphorProForXiaoMi-Regular, sans-serif}
@@ -204,9 +204,7 @@
   .f-medium {font-family: CamphorProForXiaoMi-Medium, sans-serif}
   .f-thin {font-family: CamphorProForXiaoMi-Thin, sans-serif}
    
-  .p_Xiaomi{font-size: 1em; color: var(--background-base);}
-  .Text_Xiaomi{font-size: 3rem; font-weight: bold; color: var(--background-black);}
-  
+
 
 @media screen and (min-width: 1024px){
 
@@ -221,6 +219,50 @@
 
 @media screen and (max-width: 767px){
 
+  .p_Xiaomi{font-size: 1rem; color: var(--background-base); text-align: center; padding: 1rem;}
+  .Text_Xiaomi{font-size: 3rem; font-weight: bold; color: var(--background-base); text-align: center; padding: 1rem;}
+
+  .p_Xiaomi-black{font-size: 1rem; color: var(--background-black); text-align: center; padding: 1rem;}
+  .p_Xiaomi-notas{font-size: 0.7rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
+  .Text_Xiaomi-black{font-size: 3rem; font-weight: bold; color: var(--background-black); text-align: center; padding: 1rem;}
+
+  .fundo01{
+    height: 46rem;
+    background: url(../media/1.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+  }
+
+  .fundo02{
+  padding-top: 1rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  }
+
+  .grid-xiaomi{
+    width: 23.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .fundo03{
+    height: 46rem;
+    background: url(../media/3.png);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  
 
 
 
