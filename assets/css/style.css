@@ -206,14 +206,13 @@
   .f-thin {font-family: CamphorProForXiaoMi-Thin, sans-serif}
    
 
-
 @media screen and (min-width: 1024px){
-
+ main{display: none;}
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
-
+  main{display: none;}
 }
 
 
@@ -311,6 +310,7 @@
   align-items: center;
   margin: 1rem;
   }
+
 
 
 
