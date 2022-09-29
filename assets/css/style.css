@@ -268,7 +268,7 @@ main{display: none;}
 
   .fundo03{
   height: 46rem;
-  background: url(../media/3.png);
+  background: url(../media/03.png);
   background-size:cover;
   display: flex;
   flex-direction: column;
