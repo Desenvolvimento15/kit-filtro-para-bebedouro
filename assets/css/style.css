@@ -226,7 +226,13 @@
   .p_Xiaomi-black{font-size: 1rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
   .p_Xiaomi-notas{font-size: 0.7rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
   .Text_Xiaomi-black{font-size: 1.5rem; font-weight: bold; color: var(--background-black); text-align: center; padding: 0.5rem;}
+   
 
+   #line-silver{
+    width: 10rem;
+    border: 1px solid #000;
+   }
+   
   .fundo01{
   height: 46rem;
   background: url(../media/1.png) no-repeat;
@@ -274,6 +280,15 @@
   }
 
   .fundo04{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .fundo05{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
