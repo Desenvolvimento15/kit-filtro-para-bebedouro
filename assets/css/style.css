@@ -223,7 +223,8 @@ main{display: none;}
   .Text_Xiaomi{font-size: 1.5rem; font-weight: bold; color: var(--background-base); text-align: center; padding: 0.5rem;}
 
   .p_Xiaomi-black{font-size: 0.8rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
-  .p_Xiaomi-notas{font-size: 0.8rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
+  .p_Xiaomi-notas{font-size: 0.6rem; color: var(--background-black); text-align: center;padding: 0.7rem;}
+
   .Text_Xiaomi-black{font-size: 1.5rem; font-weight: bold; color: var(--background-black); text-align: center; padding: 0.5rem;}
    
   #line-silver{width: 15rem; border: 1px solid var(--background-dialog-button);}
@@ -247,20 +248,21 @@ main{display: none;}
   }
     
   .fundo01{
-  height: 46rem;
-  background: url(../media/1.png) no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  align-content: space-between;
+    height: 46rem;
+    background: url(../media/1.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-between;
+    margin-bottom: 2rem;
   }
 
   .fundo03{
   height: 46rem;
-  background: url(../media/3.png) no-repeat;
+  background: url(../media/03.png) no-repeat;
   background-size:cover;
   display: flex;
   flex-direction: column;
