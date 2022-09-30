@@ -235,7 +235,7 @@ main{display: none;}
   grid-template-columns: 1fr 1fr;
   align-items: center;
   text-align: center;
-  margin: 1rem;
+ 
   }
   
   .grid-xiaomi-02{
@@ -261,11 +261,13 @@ main{display: none;}
   }
 
   .fundo03{
-  height: 46rem;
-  background: url(../media/03.png) no-repeat;
-  background-size:cover;
-  display: flex;
-  flex-direction: column;
+ 
+    background: url(../media/03.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 30rem;
   }
 
   .fundo04{
