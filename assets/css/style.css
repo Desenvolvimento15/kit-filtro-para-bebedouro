@@ -1,4 +1,4 @@
-*{box-sizing: border-box; margin: 0; padding: 0; font-size: 100%;}
+*{box-sizing: border-box; margin: 0; padding: 0; font-size: 100%; width: 100%;}
 
 :root {
 
@@ -218,23 +218,23 @@ main{display: none;}
 
 @media screen and (max-width: 767px){
    
-  main{overflow: hidden;}
+  main{overflow: hidden; width: 100%;}
   .p_Xiaomi{font-size: 1rem; color: var(--background-base); text-align: center; padding: 0.5rem;}
   .Text_Xiaomi{font-size: 1.5rem; font-weight: bold; color: var(--background-base); text-align: center; padding: 0.5rem;}
 
-  .p_Xiaomi-black{font-size: 1rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
-  .p_Xiaomi-notas{font-size: 0.7rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
+  .p_Xiaomi-black{font-size: 0.8rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
+  .p_Xiaomi-notas{font-size: 0.8rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
   .Text_Xiaomi-black{font-size: 1.5rem; font-weight: bold; color: var(--background-black); text-align: center; padding: 0.5rem;}
    
   #line-silver{width: 15rem; border: 1px solid var(--background-dialog-button);}
 
   .grid-xiaomi{
-  width: 23.5rem;
+  max-width: 23.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   text-align: center;
-  margin: auto;
+  margin: 1rem;
   }
   
   .grid-xiaomi-02{
@@ -258,17 +258,9 @@ main{display: none;}
   align-content: space-between;
   }
 
-  .fundo02{
-  padding-top: 1rem;
-  height: 25rem;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 48rem;
-  }
-
   .fundo03{
   height: 46rem;
-  background: url(../media/03.png);
+  background: url(../media/3.png) no-repeat;
   background-size:cover;
   display: flex;
   flex-direction: column;
@@ -281,6 +273,7 @@ main{display: none;}
   align-content: center;
   justify-content: center;
   align-items: center;
+  padding-bottom: 3rem;
   }
 
   .fundo05{
@@ -308,8 +301,14 @@ main{display: none;}
   align-content: center;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
+  margin-top: 1rem;
   }
+
+
+
+
+
+
 
 
 
