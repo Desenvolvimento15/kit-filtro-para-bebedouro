@@ -206,7 +206,112 @@
    
 
 @media screen and (min-width: 1024px){
- main{display: none;}
+  
+  .p_Xiaomi{font-size: 2rem; color: var(--background-base); text-align: center; padding: 0.5rem;}
+  .Text_Xiaomi{font-size: 3.5rem; font-weight: bold; color: var(--background-base); text-align: center; padding: 0.5rem;}
+
+  .p_Xiaomi-black{font-size: 2rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
+  .p_Xiaomi-notas{font-size: 2rem; color: var(--background-black); text-align: center;}
+
+  .Text_Xiaomi-black{font-size: 3.5rem; font-weight: bold; color: var(--background-black); text-align: center; padding: 0.5rem;}
+   
+  #line-silver{width: 15rem; border: 1px solid var(--background-dialog-button);}
+
+  .grid-xiaomi{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  }
+    
+  .fundo01{
+  height: 50rem;
+  background: url(../media/001.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: space-between;
+  margin-bottom: 2rem;
+  }
+
+  .fundo03{
+  background: url(../media/03.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 30rem;
+  }
+
+  .fundo04{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+  }
+
+  .fundo05{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .img-five{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .grid-text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  }
+
+  .box-text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  }
+ 
+  .box-texto{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 15rem;
+  }
+
+
+
+
+
+
+
 }
 
 
