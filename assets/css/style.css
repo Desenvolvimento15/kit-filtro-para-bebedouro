@@ -237,16 +237,16 @@ main{display: none;}
   }
     
   .fundo01{
-    height: 46rem;
-    background: url(../media/1.png) no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    align-content: space-between;
-    margin-bottom: 2rem;
+  height: 46rem;
+  background: url(../media/1.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: space-between;
+  margin-bottom: 2rem;
   }
 
   .fundo03{
