@@ -191,7 +191,6 @@
   
 }
 
-
   @font-face {font-family: CamphorProForXiaoMi-Regular; src: url(./fonts/CamphorPro-Regular.woff) format("woff")}
   @font-face {font-family: CamphorProForXiaoMi-Bold; font-weight: 700; src: url(./fonts/CamphorPro-Bold.woff) format("woff")}
   @font-face {font-family: CamphorProForXiaoMi-Thin; src: url(./fonts/CamphorPro-Thin.woff) format("woff")}
@@ -223,7 +222,7 @@ main{display: none;}
   .Text_Xiaomi{font-size: 1.5rem; font-weight: bold; color: var(--background-base); text-align: center; padding: 0.5rem;}
 
   .p_Xiaomi-black{font-size: 0.8rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
-  .p_Xiaomi-notas{font-size: 0.6rem; color: var(--background-black); text-align: center;padding: 0.7rem;}
+  .p_Xiaomi-notas{font-size: 0.6rem; color: var(--background-black); text-align: center;}
 
   .Text_Xiaomi-black{font-size: 1.5rem; font-weight: bold; color: var(--background-black); text-align: center; padding: 0.5rem;}
    
