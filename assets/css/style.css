@@ -228,7 +228,7 @@
     
   .fundo01{
   height: 50rem;
-  background: url(../media/001.jpg) no-repeat;
+  background: url(../media/01-desktop.jpg) no-repeat;
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
@@ -240,7 +240,7 @@
   }
 
   .fundo03{
-  background: url(../media/03.png) no-repeat;
+  background: url(../media/03-desktop.jpg) no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -341,7 +341,7 @@ main{display: none;}
     
   .fundo01{
   height: 46rem;
-  background: url(../media/1.png) no-repeat;
+  background: url(../media/01-mobile.png) no-repeat;
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
@@ -353,7 +353,7 @@ main{display: none;}
   }
 
   .fundo03{
-  background: url(../media/03.png) no-repeat;
+  background: url(../media/03-mobile.png) no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
