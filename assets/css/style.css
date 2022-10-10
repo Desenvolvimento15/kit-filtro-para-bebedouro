@@ -330,10 +330,11 @@ main{display: none;}
   #line-silver{width: 15rem; border: 1px solid var(--background-dialog-button);}
 
   .grid-xiaomi{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
   }
     
   .fundo01{
