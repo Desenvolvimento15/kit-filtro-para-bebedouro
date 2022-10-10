@@ -207,7 +207,7 @@
 
 @media screen and (min-width: 1024px){
    
-   main{display: none;}
+  
   .p_Xiaomi{font-size: 2rem; color: var(--background-base); text-align: center; padding: 0.5rem;}
   .Text_Xiaomi{font-size: 3.5rem; font-weight: bold; color: var(--background-base); text-align: center; padding: 0.5rem;}
 
