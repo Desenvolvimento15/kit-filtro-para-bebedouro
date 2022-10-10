@@ -207,7 +207,6 @@
 
 @media screen and (min-width: 1024px){
    
-  
   .p_Xiaomi{font-size: 2rem; color: var(--background-base); text-align: center; padding: 0.5rem;}
   .Text_Xiaomi{font-size: 3.5rem; font-weight: bold; color: var(--background-base); text-align: center; padding: 0.5rem;}
 
@@ -227,7 +226,7 @@
   }
     
   .fundo01{
-  height: 50rem;
+  height: 70rem;
   background: url(../media/01-desktop.jpg) no-repeat;
   background-size: cover;
   display: flex;
@@ -245,10 +244,11 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 30rem;
+  height: 78rem;
   }
 
   .fundo04{
+  background: url(../media/04-desktop.jpg) no-repeat;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
