@@ -207,11 +207,11 @@
 
 @media screen and (min-width: 1024px){
 
-  .p_Xiaomi{font-size: 2rem; color: var(--background-base); text-align: center; padding: 0.5rem;}
-  .Text_Xiaomi{font-size: 3.5rem; font-weight: bold; color: var(--background-base); text-align: center; padding: 0.5rem;}
+  .p_Xiaomi{font-size: 2rem; color: var(--background-base); text-align: left; padding: 0.5rem;}
+  .Text_Xiaomi{font-size: 3.5rem; font-weight: bold; color: var(--background-base); text-align: left; padding: 0.5rem;}
 
   .p_Xiaomi-black{font-size: 2rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
-  .p_Xiaomi-notas{font-size: 2rem; color: var(--background-black); text-align: center;}
+  .p_Xiaomi-notas{font-size: 2rem; color: var(--background-black); text-align: left;}
 
   .Text_Xiaomi-black{font-size: 3.5rem; font-weight: bold; color: var(--background-black); text-align: center; padding: 0.5rem;}
    
@@ -223,6 +223,15 @@
   align-content: center;
   justify-content: center;
   align-items: center;
+  }
+
+  .grid-text{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 24rem;
+    width: 44rem;
+    margin-left: 6rem;
+    flex-direction: column;
   }
     
   .fundo01{
@@ -276,16 +285,6 @@
   align-items: center;
   }
 
-  .grid-text{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
-  }
-
   .box-text{
   display: flex;
   flex-direction: column;
@@ -306,6 +305,18 @@
   padding: 1rem;
   width: 15rem;
   }
+
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+
+
 
 
 
