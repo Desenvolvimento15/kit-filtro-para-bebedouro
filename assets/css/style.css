@@ -210,8 +210,11 @@
   .p_Xiaomi{font-size: 2rem; color: var(--background-base); text-align: left; padding: 0.5rem;}
   .Text_Xiaomi{font-size: 3.5rem; font-weight: bold; color: var(--background-base); text-align: left; padding: 0.5rem;}
 
+  .p_Xiaomi_white{font-size: 2rem; color: var(--background-base); text-align: center; padding: 0.5rem;}
+  .Text_Xiaomi_white{font-size: 3.5rem; font-weight: bold; color: var(--background-base); text-align: center; padding: 0.5rem;}
+
   .p_Xiaomi-black{font-size: 2rem; color: var(--background-black); text-align: center; padding: 0.5rem;}
-  .p_Xiaomi-notas{font-size: 2rem; color: var(--background-black); text-align: left;}
+  .p_Xiaomi-notas{font-size: 1rem; color: var(--background-black); text-align: center;}
 
   .Text_Xiaomi-black{font-size: 3.5rem; font-weight: bold; color: var(--background-black); text-align: center; padding: 0.5rem;}
    
@@ -226,17 +229,24 @@
   }
 
   .grid-text{
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 24rem;
-    width: 44rem;
-    margin-left: 6rem;
-    flex-direction: column;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 24rem;
+  width: 44rem;
+  margin-left: 6rem;
+  flex-direction: column;
+  }
+
+  .grid-text2{
+  display: flex;
+  flex-wrap: nowrap;  
+  flex-direction: column;
   }
     
   .fundo01{
   height: 70rem;
-  background: url(../media/01-desktop.jpg) no-repeat;
+  background-image: url(../media/01-desktop.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
@@ -248,7 +258,8 @@
   }
 
   .fundo03{
-  background: url(../media/03-desktop.jpg) no-repeat;
+  background-image: url(../media/03-desktop.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -257,7 +268,8 @@
   }
 
   .fundo04{
-  background: url(../media/04-desktop.jpg) no-repeat;
+  background-image: url(../media/04-desktop.jpg);
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -265,6 +277,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 3rem;
+  height: 96rem;
   }
 
   .fundo05{
@@ -306,14 +319,12 @@
   width: 15rem;
   }
 
-
-.center{
+  .center{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-
-}
+  }
 
 
 
